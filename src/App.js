@@ -1,25 +1,43 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+} from 'react-router-dom';
+import HomePage from './pages/HomePage';
+import GalleryPage from './pages/GalleryPage';
+import AboutPage from './pages/AboutPage';
+import ContactPage from './pages/ContactPage';
+import NotFoundPage from './pages/NotFoundPage';
+import { LocalizeProvider } from "react-localize-redux";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+//Components
+import NavBar from './components/NavBar';
+import Footer from './components/Footer';
+
+//Assets
+import './assets/css/main.css';
+
+function App() {  
+
+  return (  
+    <LocalizeProvider>
+      <Router>
+        <div className="page-wrap">
+          <NavBar />
+          <section id="main">
+            <Switch>
+              <Route path="/" component={HomePage} exact />
+              <Route path="/gallery" component={GalleryPage} />
+              <Route path="/about" component={AboutPage} />
+              <Route path="/contact" component={ContactPage} />
+              <Route component={NotFoundPage} />
+            </Switch>
+            <Footer />
+          </section>
+        </div>
+      </Router>
+    </LocalizeProvider>  
   );
 }
 

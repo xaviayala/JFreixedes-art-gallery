@@ -1,0 +1,296 @@
+{
+  "common":
+  {
+    "copyright": ["Artwork: © 2020 Josep Freixedes. All rights reserved. Powered by UP958975 for the University of Portsmouth.","Arte: © 2020 Josep Freixedes. Todos los derechos reservados. Desarrollado por UP958975 para University of Portsmouth","Art: © 2020 Tots els drets reservats. Desenvolupat per UP958975 per a University of Portsmouth"]
+  },
+  "pages": 
+  {
+    "home": 
+    {
+      "mainTitle" :    ["Josep Freixedes - Art Gallery","Josep Freixedes - Galería de Arte","Josep Freixedes - Galeria d'Art"],
+      "subTitle"  :    ["Discover my selection of Artworks: Paintings, Photographs & Drawings","Descubre mi selección de obras de arte: Pinturas, Fotografías y Dibujos","Descobreix la meva selecció d'obres d'art: Pintures, Fotografies i Dibuixos"],
+      "mainButton":    ["Latest Additions","Adiciones más recientes","Adhesions més recents"],
+      "galleryButton": ["View Gallery","Ver Galería","Veure Galeria"]
+    },
+    "gallery": 
+    {
+    },
+    "about": 
+    {
+    }
+  },
+  "pictures":
+  {
+    "C9K6B6M8": {
+          "title": ["Abbey", "Abadia", "Abadia"]
+        },
+    "P1U6F5K5": {
+          "title": ["Abbey 2", "Abadia 2", "Abadia 2"]
+        },
+    "W1A8T5E2": {
+          "title": ["African Woman", "Mujer Africana", "Dona Africana"]
+        },
+    "T6U4Z3N6": {
+          "title": ["Baby 1", "Bebé 1", "Nadó 1"]
+        },
+    "S0D1F0F8": {
+          "title": ["Baby Dj", "Bebé DJ", "Nadó DJ"]
+        },
+    "Y9L7N3K7": {
+          "title": ["Belly Dancer", "Danza del vientre", "Dansa del ventre"]
+        },
+    "O3L0J2V4": {
+          "title": ["Bob Dylan", "Bob Dylan", "Bob Dylan"]
+        },
+    "C2X8J3D5": {
+          "title": ["Bono", "Bono", "Bono"]
+        },
+    "N4U4R8S5": {
+          "title": ["Bruce Springsteen", "Bruce Springsteen", "Bruce Springsteen"]
+        },
+    "R0O1X9S6": {
+          "title": ["Camels", "Camellos", "Camells"]
+        },
+    "R2D3C4U7": {
+          "title": ["Casablanca", "Casablanca", "Casablanca"]
+        },
+    "D4F8X2V9": {
+          "title": ["Castle", "Castillo", "Castell"]
+        },
+    "I9A5L7Z7": {
+          "title": ["Cava", "Cava", "Cava"]
+        },
+    "T6M4A9K3": {
+          "title": ["Cava Bottles", "Botellas de Cava", "Ampolles de Cava"]
+        },
+    "V7C1C9C8": {
+          "title": ["Church", "Iglesia", "Esglèsia"]
+        },
+    "O9C4R1H5": {
+          "title": ["Climber", "Escalador", "Escalador"]
+        },
+    "V2Q3Q5H9": {
+          "title": ["Clown", "Payaso", "Pallasso"]
+        },
+    "J2R7F1A5": {
+          "title": ["Cold Play", "Cold Play", "Cold Play"]
+        },
+    "U2I0W4S2": {
+          "title": ["Cottage", "Cortijo", "Masia"]
+        },
+    "M1P4C6U7": {
+          "title": ["Cottage 2", "Cortijo 2", "Cortijo 2"]
+        },
+    "O6U3W9G4": {
+          "title": ["Cycling Race", "Vuelta Ciclista", "Vola Ciclista"]
+        },
+    "Q4Z1X9P2": {
+          "title": ["Cycling Race 2", "Vuelta Ciclista 2", "Volta Ciclista 2"]
+        },
+    "M9C3I5N8": {
+          "title": ["Cycling Race Abstract", "Vuelta Ciclista Abstracto", "Volta Ciclista Abstracto"]
+        },
+    "V3U8M8Q5": {
+          "title": ["Daft Punk", "Daft Punk", "Daft Punk"]
+        },
+    "P1U9S8N2": {
+          "title": ["Deep Purple", "Deep Purple", "Deep Purple"]
+        },
+    "L7D2R1P9": {
+          "title": ["Depeche Mode", "Depeche Mode", "Depeche Mode"]
+        },
+    "Y2U2H2V0": {
+          "title": ["Dj", "Dj", "Dj"]
+        },
+    "L1C8X1B3": {
+          "title": ["Django Reinhardt", "Django Reinhardt", "Django Reinhardt"]
+        },
+    "E3I2Q5W5": {
+          "title": ["Dj Tiesto", "Dj Tiesto", "Dj Tiesto"]
+        },
+    "L1U7K4H5": {
+          "title": ["Eagle Fm", "Águila FM", "Águila FM"]
+        },
+    "Z2A9H0Y2": {
+          "title": ["F1 Alonso", "F1 Alonso", "F1 Alonso"]
+        },
+    "N1O4R9D6": {
+          "title": ["F1 Ferrari", "F1 Ferrari", "F1 Ferrari"]
+        },
+    "V5D6J2A5": {
+          "title": ["Ferrari", "Ferrari", "Ferrari"]
+        },
+    "U4C6K7F5": {
+          "title": ["Flamenco Dancer", "Bailaora Flamenco", "Bailaora Flamenc"]
+        },
+    "M5A2Q4G2": {
+          "title": ["Flamenco Dancer 2", "Bailaora Flamenco 2", "Bailaora Flamenc 2"]
+        },
+    "Q3C3S7U8": {
+          "title": ["Fm", "Fm", "Fm"]
+        },
+    "M0C0T3V5": {
+          "title": ["Fm 2", "Fm 2", "Fm 2"]
+        },
+    "G4Y8C5U5": {
+          "title": ["Future City", "Ciudad Futura", "Ciutat Futura"]
+        },
+    "R3M7T8E3": {
+          "title": ["Future City 2", "Ciudad Futura 2", "Ciutat Futura 2"]
+        },
+    "V4P1T6Q5": {
+          "title": ["Gipsy Dancing", "Bailadora Gitana", "Balladora Gitana"]
+        },
+    "U5R0L7Y3": {
+          "title": ["Gymnast", "Gimnasta", "Gimnasta"]
+        },
+    "D0Q5D7L3": {
+          "title": ["Halle Berry", "Halle Berry", "Halle Berry"]
+        },
+    "R2A1H6M1": {
+          "title": ["Hitchcock", "Hitchcock", "Hitchcock"]
+        },
+    "E4F3B2V9": {
+          "title": ["Human Towers", "Castellers", "Castellers"]
+        },
+    "X4I8C8K3": {
+          "title": ["Human Towers 2", "Castellers 2", "Castellers 2"]
+        },
+    "M3J0R9Q9": {
+          "title": ["Human Towers 3", "Castellers 3", "Castellers 3"]
+        },
+    "C4X8E8K0": {
+          "title": ["La Dolce Vita", "La Dolce Vita", "La Dolce Vita"]
+        },
+    "C3M6J0Z3": {
+          "title": ["Lipstick", "Pintalabios", "Pintallavis"]
+        },
+    "Y3H4O2K3": {
+          "title": ["Madonna", "Madonna", "Madonna"]
+        },
+    "X7I9Q7Y6": {
+          "title": ["Mano Negra", "Mano Negra", "Mano Negra"]
+        },
+    "A9T1S7T2": {
+          "title": ["Marilyn", "Marilyn", "Marilyn"]
+        },
+    "V3X5A1R1": {
+          "title": ["Metallica", "Metallica", "Metallica"]
+        },
+    "J6W2C3C2": {
+          "title": ["Miles Davis", "Miles Davis", "Miles Davis"]
+        },
+    "K2V6L3Q0": {
+          "title": ["Moonwalker", "Moonwalker", "Moonwalker"]
+        },
+    "F7C4Y9U3": {
+          "title": ["Mountains", "Montañas", "Montanyes"]
+        },
+    "T0P4U4N1": {
+          "title": ["Neymar", "Neymar", "Neymar"]
+        },
+    "D8Q2P1F4": {
+          "title": ["Old Kids At School", "Niños Pequeños en la Escuela", "Nens Petits a l'Escola"]
+        },
+    "C7T4B1Q0": {
+          "title": ["Penguin", "Pingüino", "Pingüí"]
+        },
+    "F7G5I8H3": {
+          "title": ["Pop Music", "Musica Pop", "Musica Pop"]
+        },
+    "F6Q3B5R4": {
+          "title": ["Rally", "Rally", "Rally"]
+        },
+    "S0L7I0G3": {
+          "title": ["Rose", "Rosa", "Rosa"]
+        },
+    "Y1I4G0L8": {
+          "title": ["Sculpture Pau Casals", "Escultura Pau Casals", "Escultura Pau Casals"]
+        },
+    "H6Y8T6I5": {
+          "title": ["Senna", "Senna", "Senna"]
+        },
+    "I0Z7U4W2": {
+          "title": ["Sexy Girl", "Chica Sexy", "Noia Sexy"]
+        },
+    "S8A0R2H3": {
+          "title": ["Sid Vicious", "Sid Vicious", "Sid Vicious"]
+        },
+    "Z7Q8S7R3": {
+          "title": ["Slash", "Slash", "Slash"]
+        },
+    "M4H6F1X9": {
+          "title": ["The Joker", "Joker", "Joker"]
+        },
+    "L0J9D5O3": {
+          "title": ["U2", "U2", "U2"]
+        },
+    "L2X3X2P6": {
+          "title": ["Vilafranca Town", "Vilafranca", "Vilafranca"]
+        },
+    "O2C5Y7T6": {
+          "title": ["Vineyard", "Viñedo", "Vinya"]
+        },
+    "B8A9E7Z9": {
+          "title": ["Volkswagen", "Volkswagen", "Volkswagen"]
+        },
+    "T4N1J2D9": {
+          "title": ["Volkswagen 2", "Volkswagen 2", "Volkswagen 2"]
+        },
+    "P3X7W5V4": {
+          "title": ["Woman", "Mujer", "Dona Africana"]
+        },
+    "P8C7J2V0": {
+          "title": ["Woman Drawing", "Dibujo de una Mujer", "Dibuix d'una Dona"]
+        },
+    "K0O3X5G9": {
+          "title": ["Woman Face", "Cara de Mujer", "Cara de Dona"]
+        },
+    "L1C1M3K0": {
+          "title": ["Woman Face 2", "Cara de Mujer 2", "Cara de Dona  2"]
+        },
+    "O3B8U1Y8": {
+          "title": ["Woman Face 3", "Cara de Mujer 3", "Cara de Dona  3"]
+        },
+    "T7E2P3P5": {
+          "title": ["Woman Face 4", "Cara de Mujer 4", "Cara de Dona  4"]
+        },
+    "H6A4X5T2": {
+          "title": ["Woman Face 5", "Cara de Mujer 5", "Cara de Dona  5"]
+        },
+    "U2C4Z6I6": {
+          "title": ["Woman Silouette 1", "Mujer Silueta 1", "Dona  Silueta 1"]
+        },
+    "Z5O0R5C0": {
+          "title": ["Woman Silouette 2", "Mujer Silueta 2", "Dona  Silueta 2"]
+        },
+    "O5C6I5D7": {
+          "title": ["Woman Silouette 3", "Mujer Silueta 3", "Dona  Silueta 3"]
+        },
+    "B0R7X0X4": {
+          "title": ["Woman Silouette 4", "Mujer Silueta 4", "Dona  Silueta 4"]
+        },
+    "M4Z9D1D7": {
+          "title": ["Woman Silouette 5", "Mujer Silueta 5", "Mujer Silueta 5"]
+        },
+    "U0G2Z7Y1": {
+          "title": ["Woman Silouette 6", "Mujer Silueta 6", "Mujer Silueta 6"]
+        }
+   },
+   "tags": 
+   {
+      "all"   : ["All","Todos","Tots"],
+      "Buildings": ["Buildings","Construcciones","Construccions"],
+      "People": ["People","Gente","Gent"],
+      "Music": ["Music","Música","Música"],
+      "Animals": ["Animals","Animales","Animals"],
+      "Movies": ["Movies","Películas","Películ·les"],
+      "Misc": ["Misc","Varios","Varis"],
+      "Sport": ["Sport","Deporte","Esport"],
+      "Tradition": ["Tradition","Tradición","Tradició"],
+      "Cars": ["Cars","Coches","Cotxes"],
+      "Urban": ["Urban","Urbano","Urbà"],
+      "Nature": ["Nature","Naturaleza","Natura"]
+
+   }
+}
