@@ -14,7 +14,8 @@ const ContactPage = () => {
                   <header className="align-center">
                       <h1>{pageTitle}</h1>
                   </header>
-                  <form action="POST" data-netlify="true">
+                  <form method="POST" data-netlify="true">
+                      <input type="hidden" name="form-name" value="contact" />
                       <div class="field half first">
                         <label for="name">Name</label>
                         <input name="name" id="name" type="text" placeholder="Name" />
