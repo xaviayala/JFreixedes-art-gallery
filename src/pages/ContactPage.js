@@ -12,6 +12,7 @@ const ContactPage = () => {
             <div className="inner">
                   <header className="align-center">
                       <h1><Translate id="pages.contact.pageTitle" /></h1>
+                      <h3><Translate id="pages.contact.request" /></h3>
                   </header>
                   <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
                       <input type="hidden" name="form-name" value="contact" />

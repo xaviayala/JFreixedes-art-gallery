@@ -14,15 +14,16 @@ const maxAdditions = 8;
 // get unique category items
 const uniqueItems = (x, i, array) => array.indexOf(x) === i;  
 
-const pictureCategories = galleryContent.map(picture => picture.category).filter(
+//Show the latest gallery additions 
+const latestGalleryAdditions = galleryContent.slice(0, maxAdditions).sort((a, b) => b.addedOn - a.addedOn)
+
+const pictureCategories = latestGalleryAdditions.map(picture => picture.category).filter(
     uniqueItems
 );
 
 pictureCategories.push("all");
 pictureCategories.sort();
 
-//Show the latest gallery additions 
-const latestGalleryAdditions = galleryContent.slice(0, maxAdditions).sort((a, b) => b.addedOn - a.addedOn)
 
 class HomePage extends React.Component {
 
