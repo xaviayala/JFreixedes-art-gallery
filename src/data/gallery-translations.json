@@ -15,8 +15,17 @@
     "gallery": 
     {
     },
+    "contact": 
+    {
+      "pageTitle" : ["Get in touch!","Contacta","Contacta"],
+      "name"      : ["Name","Nombre","Nom"],
+      "message"   : ["Message","Mensaje","Missatge"],
+      "submit"    : ["Send Message","Envía mensaje","Envia Missatge"]
+    },
     "about": 
     {
+      "pageTitle" : ["About me","Acerca de mí","Sobre mi"],
+      "warning"   : ["The 'About me' content section is still under the author's review","La sección de contenidos de 'Acerca de mí' está pendiente de revisión del autor","La secció de continguts de 'Sobre de mi' està pendent de revisió de l'autor"]
     }
   },
   "pictures":

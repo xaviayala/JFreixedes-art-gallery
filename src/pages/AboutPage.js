@@ -1,17 +1,16 @@
 import React from 'react';
 import MainHeader from '../components/MainHeader';
+import { withLocalize, Translate } from "react-localize-redux";
 import Facebook from '../components/Facebook';
-
-const pageTitle = "About Me";
 
 const AboutPage = () => (
     <>
-    <MainHeader title={pageTitle} />
+    <MainHeader />
     <section className="wrapper">
         <div className="inner">
             <header className="align-center">
-                <h1>About Me</h1>
-                <h3>The about me section content is still under the author's review</h3>
+                <h1><Translate id="pages.about.pageTitle" /></h1>
+                <h3><Translate id="pages.about.warning" /></h3>
             </header>
             <div className="flex flex-2">
                 <div className="col col2">
@@ -56,4 +55,4 @@ const AboutPage = () => (
     </>
 );
 
-export default AboutPage;
+export default withLocalize(AboutPage);
