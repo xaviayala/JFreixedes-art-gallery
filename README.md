@@ -1,5 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Git
+
+git add .<br />
+git commit -m "commit comments"<br />
+git push -u https://github.com/xaviayala/JFreixedes-art-gallery.git<br />
+
 ## Available Scripts
 
 In the project directory, you can run:
