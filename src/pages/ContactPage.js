@@ -29,6 +29,7 @@ const ContactPage = () => {
                       </div>
                       <div class="field">
                         <div data-netlify-recaptcha="true"></div>
+                        <div class="g-recaptcha" data-sitekey="6LcnvNsUAAAAADD6_E9geeWuPh5zwE10oOBso-G9"></div>
                       </div>
                       <ul class="actions">
                         <li>
