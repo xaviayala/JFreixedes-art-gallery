@@ -2,6 +2,9 @@ import React from 'react';
 import Gallery from '../components/Gallery';
 import galleryContent from '../data/gallery-content';
 import MainHeader from '../components/MainHeader';
+import { renderToStaticMarkup } from "react-dom/server";
+import { withLocalize } from "react-localize-redux";
+import globalTranslations from "../data/gallery-translations.json";
 
 const galleryTitle = "Josep Freixedes' Gallery";
 
