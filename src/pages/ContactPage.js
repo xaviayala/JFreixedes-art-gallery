@@ -7,6 +7,12 @@ import globalTranslations from "../data/gallery-translations.json";
 // Import reCaptcha
 import Recaptcha from 'react-recaptcha'
 
+const encode = (data) => {
+  return Object.keys(data)
+      .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+      .join("&");
+}
+
 class ContactPage extends React.Component {
 
     constructor(props) {
@@ -91,10 +97,17 @@ class ContactPage extends React.Component {
 
         // Form validated and ready to submit
         console.log("Submitting form!")
-        //console.log(JSON.stringify(data)) 
-		    event.target.submit()
-
+        
+        fetch("/", {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: encode({ "form-name": "contact", ...this.state })
+        })
+          .then(() => alert("Success!"))
+          .catch(error => alert(error));
+    
         // Reset state after sending the form
+        /*
         this.setState({
           email: '',
           message: '',
@@ -103,6 +116,7 @@ class ContactPage extends React.Component {
           isErrorShown: false,
           isFormValid: false
         })
+        */
       } else {
         // Show error message
         this.setState({
