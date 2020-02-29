@@ -50,7 +50,7 @@ class ContactPage extends React.Component {
                               </div>
                               <div className="field">
                                 <div data-netlify-recaptcha="true"></div>
-                                <div className="g-recaptcha" data-sitekey="6LcnvNsUAAAAADD6_E9geeWuPh5zwE10oOBso-G9"></div>
+                                <div className="g-recaptcha" data-sitekey="6Leict0UAAAAANiDa5mVoxFWM3EWn2871xu9TDto"></div>
                               </div>
                               <ul className="actions">
                                 <li>
