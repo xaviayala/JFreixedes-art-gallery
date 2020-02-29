@@ -43,7 +43,7 @@ class ContactPage extends React.Component {
     }
 
     // Handle visitor's interaction with inputs
-      handleInput = event => {
+      handleInput = (event) => {
         // Test for input and length of the value
         if (event.target.value.length > 0 && event.target.name !== 'email') {
           this.setState({
@@ -53,8 +53,7 @@ class ContactPage extends React.Component {
 
         // If input is for email address validate it with regexp
         if (event.target.name === 'email') {
-          // eslint-disable-next-line
-          const reg = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+          const reg = /^([\w.%+-]+)@([\w-]+\.)+([\w]{2,})$/i
 
           if (reg.test(String(event.target.value).toLowerCase())) {
             this.setState({
@@ -64,7 +63,7 @@ class ContactPage extends React.Component {
         }
       }
 
-     // Show message in console when reCaptcha plugin is loaded
+     // Show message in console to check reCaptcha plugin is loaded
       onCaptchaLoad = () => {
         console.log('Captcha loaded')
     }
@@ -76,11 +75,15 @@ class ContactPage extends React.Component {
       })
     }
 
-    handleFormSubmit = event => {
+    handleFormSubmit = (event) => {
       event.preventDefault()
 
       // Test
-      if (this.state.email.length > 0 && this.state.name.length > 0 && this.state.message.length > 0 && this.state.isCaptchaValid) {
+      if (this.state.email.length > 0 && 
+          this.state.name.length > 0 && 
+          this.state.message.length > 0 && 
+          this.state.isCaptchaValid) {
+
         this.setState({
           isErrorShown: false,
           isFormValid: true
@@ -88,6 +91,8 @@ class ContactPage extends React.Component {
 
         // Form validated and ready to submit
         console.log("Submitting form!")
+        //console.log(JSON.stringify(data)) 
+		    event.target.submit()
 
         // Reset state after sending the form
         this.setState({
@@ -144,7 +149,7 @@ class ContactPage extends React.Component {
                                 <li>
                                     <Translate>{
                                       ({ translate }) => {
-                                        return <input value={translate("pages.contact.submit")} className="button" type="submit" onClick={this.handleFormSubmit} />
+                                        return <input value={translate("pages.contact.submit")} className="button" type="submit" />
                                       }
                                     }</Translate>
                                 </li>
