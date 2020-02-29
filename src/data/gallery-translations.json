@@ -21,7 +21,9 @@
       "request"        : ["If you liked any particular artwork please feel free to contact me","Si te ha gustado algua obra en particular puedes ponerte en contacto conmigo","Si t'ha agradat alguna obra en particular pots posar-te en contacte amb mí"],
       "name"           : ["Name","Nombre","Nom"],
       "message"        : ["Message","Mensaje","Missatge"],
-      "submit"         : ["Send Message","Envía mensaje","Envia Missatge"]
+      "submit"         : ["Send Message","Envía mensaje","Envia Missatge"],
+      "captchaError"   : ["Please, accept the 'Captcha' validation.","Por favor, acepta la validación 'Captcha'","Si us plau, accepta la validació 'Captcha'"],
+      "feedback"       : ["Thank you for your feedback!","Gracias por tu feedback!","Gràcies pel teu feeback"]
     },
     "about": 
     {

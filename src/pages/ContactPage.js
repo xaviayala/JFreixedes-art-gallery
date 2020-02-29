@@ -82,6 +82,7 @@ class ContactPage extends React.Component {
     }
 
     handleFormSubmit = (event) => {
+      //prevent form submission before validation
       event.preventDefault()
 
       // Test
@@ -103,11 +104,11 @@ class ContactPage extends React.Component {
           headers: { "Content-Type": "application/x-www-form-urlencoded" },
           body: encode({ "form-name": "contact", ...this.state })
         })
-          .then(() => alert("Success!"))
+          .then(() => 
+              alert("Thank you for your feedback!"))
           .catch(error => alert(error));
     
         // Reset state after sending the form
-        /*
         this.setState({
           email: '',
           message: '',
@@ -116,7 +117,8 @@ class ContactPage extends React.Component {
           isErrorShown: false,
           isFormValid: false
         })
-        */
+        console.log("form cleanup!")
+        
       } else {
         // Show error message
         this.setState({
@@ -158,6 +160,11 @@ class ContactPage extends React.Component {
                                             render="explicit"
                                             verifyCallback={this.onCaptchaVerify}
                                             />
+                                            {this.state.isErrorShown && (
+                                                <div>
+                                                  <p><Translate id="pages.contact.captchaError" /></p>
+                                                </div>
+                                              )}
                               </div>
                               <ul className="actions">
                                 <li>
@@ -168,11 +175,6 @@ class ContactPage extends React.Component {
                                     }</Translate>
                                 </li>
                               </ul>
-                              {this.state.isErrorShown && (
-                              <div>
-                                <p>Please, make sure to fill all fields.</p>
-                              </div>
-                              )}
                             </form>
                             <Facebook />
                         </div>
