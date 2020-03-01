@@ -9,14 +9,17 @@ import GalleryPage from './pages/GalleryPage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import NotFoundPage from './pages/NotFoundPage';
+import CookiePolicyPage from './pages/CookiePolicyPage';
 import { LocalizeProvider } from "react-localize-redux";
 
 //Components
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
+import CookieConsentMessage from './components/CookieConsentMessage';
 
 //Assets
 import './assets/css/main.css';
+
 
 function App() {  
 
@@ -31,11 +34,13 @@ function App() {
               <Route path="/gallery" component={GalleryPage} />
               <Route path="/about" component={AboutPage} />
               <Route path="/contact" component={ContactPage} />
+              <Route path="/cookie-policy" component={CookiePolicyPage} />
               <Route component={NotFoundPage} />
             </Switch>
             <Footer />
+            <CookieConsentMessage />
           </section>
-        </div>
+        </div>        
       </Router>
     </LocalizeProvider>  
   );

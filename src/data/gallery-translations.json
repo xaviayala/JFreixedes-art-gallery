@@ -25,6 +25,11 @@
       "captchaError"   : ["Please, accept the 'Captcha' validation.","Por favor, acepta la validación 'Captcha'","Si us plau, accepta la validació 'Captcha'"],
       "feedback"       : ["Thank you for your feedback!","Gracias por tu feedback!","Gràcies pel teu feeback"]
     },
+    "cookiepolicy":
+    {
+      "pageTitle"      : ["Cookie Policy for Josep Freixedes - Art Gallery","Política de Cookies de Josep Freixedes - Galería de Arte","Política de Cookies de Josep Freixedes - Galeria d'Art"],
+      "headline"       : ["This is the Cookie Policy for Josep Freixedes - Art Gallery, accessible from ","Esta es la Política de Cookies de Josep Freixedes - Galería de Arte, accesible desde ","Aquesta es la Política de Cookies de Josep Freixedes - Galeria d'Art, accessible des de "]
+    },
     "about": 
     {
       "pageTitle" : ["About me","Acerca de mí","Sobre mí"],

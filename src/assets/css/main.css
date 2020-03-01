@@ -1786,6 +1786,35 @@
 
 		}
 
+/* Cookie Connsent */
+
+.cookieConsent {
+	padding: 0.9em 0 0 0; /* 4em 0 2em 0; */
+	background-color: #0d1217;
+	text-align: center;
+}
+
+	.cookieConsent .disclaimer {
+		color: #bfbfbf;
+		font-size: 0.9em;
+		margin: 0 0 2em 0;
+		padding: 0 1em;
+		text-align: justify;
+	}
+
+	.cookieConsent .button {
+		margin: 0.3em;
+	}
+
+	@media screen and (max-width: 736px) {
+
+		.cookieConsent {
+			padding: 3em 0 1em 0;
+		}
+
+	}
+
+
 /* Not Found */
 #notfound {
 	position: relative;
