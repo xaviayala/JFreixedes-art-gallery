@@ -1,11 +1,12 @@
 import React from 'react';
 import Banner from '../components/Banner';
 import ButtonGallery from '../components/ButtonGallery';
+import PageHelmet from '../components/PageHelmet';
 import MainHeader from '../components/MainHeader';
 import Gallery from '../components/Gallery';
 import galleryContent from '../data/gallery-content';
 import { renderToStaticMarkup } from "react-dom/server";
-import { withLocalize } from "react-localize-redux";
+import { withLocalize, Translate } from "react-localize-redux";
 import globalTranslations from "../data/gallery-translations.json";
 
 const galleryTitle = "What's New";
@@ -46,6 +47,11 @@ class HomePage extends React.Component {
 
     render() {
         return (<>
+                <Translate>{
+                ({ translate }) => {
+                    return <PageHelmet title={translate("pages.home.mainTitle")} description={translate("pages.home.subTitle")} />
+                }
+                }</Translate>
                 <MainHeader title={galleryTitle} />
                 <section id="banner">
                         <Banner />

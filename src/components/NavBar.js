@@ -6,7 +6,7 @@ const NavBar = () => (
         <nav id="nav">
             <ul>
                 <li>
-                    <NavLink activeClassName={"active"} to="/" exact={true}><span className="icon fa-power-off"></span></NavLink>
+                    <NavLink activeClassName={"active"} to="/" exact={true}><span className="icon fa-power-off" /></NavLink>
                 </li>
                 <li>
                     <NavLink activeClassName={"active"} to="/gallery"><span className="icon fa-image" /></NavLink>

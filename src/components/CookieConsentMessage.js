@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { withLocalize, Translate } from "react-localize-redux";
+import { withLocalize } from "react-localize-redux";
 import CookieConsent from "react-cookie-consent";
 
 const CookieConsentMessage= () => (
@@ -13,7 +13,9 @@ const CookieConsentMessage= () => (
             contentClasses="disclaimer"
             disableStyles={true}
             buttonClasses="button"
+            buttonId="btnAccept"
             declineButtonClasses="button"
+            declineButtonId="btnDecline"
             expires={150}
             enableDeclineButton={true}
         >
