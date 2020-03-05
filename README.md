@@ -1,4 +1,15 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## UP958975 - Web Management and Development (WebMD DL)
+### Unit Code  WebMD DL / U30875
+
+This is a University project accomplished as a part of my BSc(Hons) Computing & Information Systems for the <b>University of Portsmouth</b>.<br />
+
+## Live site
+The live website is available at https://jfreixedes-artstudio.me
+
+## Hosting and integration deployment
+The website has deployed using the hosting and serverless backend services of Netlify available at https://jfreixedes-artstudio.netlify.com and is using continuous deployment from this GitHub repository.
+
+The was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Git
 
