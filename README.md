@@ -1,4 +1,5 @@
-## UP958975 - Web Management and Development (WebMD DL)
+## UP958975 - Josep Freixedes - Art Gallery
+### Web Management and Development (WebMD DL)
 ### Unit Code  WebMD DL / U30875
 
 This is a University project accomplished as a part of my BSc(Hons) Computing & Information Systems for the <b>University of Portsmouth</b>.<br />
