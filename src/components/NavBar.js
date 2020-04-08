@@ -12,6 +12,9 @@ const NavBar = () => (
                     <NavLink activeClassName={"active"} to="/gallery"><span className="icon fa-image" /></NavLink>
                 </li>
                 <li>
+                    <NavLink activeClassName={"active"} to="/blog"><span  className="icon fa-file-text-o" /></NavLink>
+                </li>
+                <li>
                     <NavLink activeClassName={"active"} to="/about"><span className="icon fa-male" /></NavLink>
                 </li>
                 <li>

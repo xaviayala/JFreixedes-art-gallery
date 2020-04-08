@@ -12,8 +12,10 @@
       "mainButton":    ["Latest Additions","Adiciones más recientes","Adhesions més recents"],
       "galleryButton": ["View Gallery","Ver Galería","Veure Galeria"]
     },
-    "gallery": 
+    "blog": 
     {
+      "pageTitle"      : ["The Artist's Blog","El Blog del Artista","El Blog de l'Artista"],
+      "postButton"     : ["New Post","Nuevo Artículo","Bou Article"]
     },
     "contact": 
     {

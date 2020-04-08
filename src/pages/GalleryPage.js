@@ -2,8 +2,9 @@ import React from 'react';
 import Gallery from '../components/Gallery';
 import galleryContent from '../data/gallery-content';
 import MainHeader from '../components/MainHeader';
+import PageHelmet from '../components/PageHelmet';
 import { renderToStaticMarkup } from "react-dom/server";
-import { withLocalize } from "react-localize-redux";
+import { withLocalize, Translate } from "react-localize-redux";
 import globalTranslations from "../data/gallery-translations.json";
 
 const galleryTitle = "Josep Freixedes' Gallery";
@@ -38,6 +39,15 @@ class GalleryPage extends React.Component {
 
     render() {
         return (<>
+                {/*  SEO Section: Adding the SEO helmet component to allows us to set the HTML metadata in the header of our GAllery Page gallery */ }
+                <Translate>{    
+                    ({ translate }) => {
+                        return <PageHelmet pageTitle={translate("pages.home.mainTitle")} 
+                        pageDescription={translate("pages.home.subTitle")} 
+                        pageImage={window.location.origin + "/logo512.png"} />
+                    }
+                }</Translate>
+
                 <MainHeader title={galleryTitle} />
                 <section id="galleries">
                     <div className="gallery">

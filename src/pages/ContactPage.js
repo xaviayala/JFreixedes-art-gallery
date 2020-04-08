@@ -2,6 +2,7 @@ import React from 'react';
 import { withLocalize, Translate } from "react-localize-redux";
 import MainHeader from '../components/MainHeader';
 import Facebook from '../components/Facebook';
+import PageHelmet from '../components/PageHelmet';
 import { renderToStaticMarkup } from "react-dom/server";
 import globalTranslations from "../data/gallery-translations.json";
 // Import reCaptcha
@@ -130,6 +131,15 @@ class ContactPage extends React.Component {
     render() {
         return (
                 <>
+                {/*  SEO Section: Adding the SEO helmet component to allows us to set the HTML metadata in the header of our Contact Page gallery */ }
+                <Translate>{    
+                    ({ translate }) => {
+                        return <PageHelmet pageTitle={translate("pages.home.mainTitle")} 
+                        pageDescription={translate("pages.home.subTitle")} 
+                        pageImage={window.location.origin + "/josep-freixedes.jpg"} />
+                    }
+                }</Translate>
+
                   <MainHeader />
                   <section className="wrapper">
                     <div className="inner">
@@ -158,6 +168,7 @@ class ContactPage extends React.Component {
                                 <Recaptcha onloadCallback={this.onCaptchaLoad}
                                             sitekey="6Leict0UAAAAANiDa5mVoxFWM3EWn2871xu9TDto"
                                             render="explicit"
+                                            size="compact"
                                             verifyCallback={this.onCaptchaVerify}
                                             />
                                             {this.state.isErrorShown && (

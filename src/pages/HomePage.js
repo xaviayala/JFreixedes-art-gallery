@@ -47,11 +47,15 @@ class HomePage extends React.Component {
 
     render() {
         return (<>
-                <Translate>{
+                {/*  SEO Section: Adding first a SEO helmet to allows us to set the HTML metadata in the header of our home page gallery */ }
+                <Translate>{    
                 ({ translate }) => {
-                    return <PageHelmet title={translate("pages.home.mainTitle")} description={translate("pages.home.subTitle")} />
+                    return <PageHelmet pageTitle={translate("pages.home.mainTitle")} 
+                                       pageDescription={translate("pages.home.subTitle")} 
+                                       pageImage={window.location.origin + "/logo512.png"} />
                 }
                 }</Translate>
+    
                 <MainHeader title={galleryTitle} />
                 <section id="banner">
                         <Banner />
