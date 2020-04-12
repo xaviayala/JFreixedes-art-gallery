@@ -5,7 +5,7 @@ const NotFoundPage = () => (
         <div id="notfound">
             <div className="notfound-bg"></div>
             <div className="notfound">
-                <div class="notfound-404">
+                <div className="notfound-404">
                     <h1>404</h1>
                 </div>
                 <h2>Oops! Page Not Found</h2>
