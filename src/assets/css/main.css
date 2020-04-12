@@ -146,13 +146,21 @@
 
 	a {
 		text-decoration: underline;
-		color: #015C89;
+		color: #375695;
 	}
 
 		a:hover {
 			text-decoration: none;
 			color: #019be3;
 		}
+
+		a.contrast {
+			color: #FFFF80;
+		}
+
+			a.contrast:hover {
+				color: #FFFF80;
+			}
 
 	strong, b {
 		font-weight: 700;
