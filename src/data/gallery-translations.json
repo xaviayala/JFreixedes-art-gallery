@@ -8,10 +8,11 @@
   {
     "home": 
     {
-      "mainTitle" :    ["Josep Freixedes - Art Gallery","Josep Freixedes - Galería de Arte","Josep Freixedes - Galeria d'Art"],
-      "subTitle"  :    ["Discover my selection of Artworks: Paintings, Photographs & Drawings","Descubre mi selección de obras de arte: Pinturas, Fotografías y Dibujos","Descobreix la meva selecció d'obres d'art: Pintures, Fotografies i Dibuixos"],
-      "mainButton":    ["Latest Additions","Adiciones más recientes","Adhesions més recents"],
-      "galleryButton": ["View Gallery","Ver Galería","Veure Galeria"]
+      "mainTitle"    : ["Josep Freixedes - Art Gallery","Josep Freixedes - Galería de Arte","Josep Freixedes - Galeria d'Art"],
+      "subTitle"     : ["Discover my selection of Artworks: Paintings, Photographs & Drawings","Descubre mi selección de obras de arte: Pinturas, Fotografías y Dibujos","Descobreix la meva selecció d'obres d'art: Pintures, Fotografies i Dibuixos"],
+      "mainButton"   : ["Latest Additions","Adiciones más recientes","Adhesions més recents"],
+      "galleryButton": ["View Gallery","Ver Galería","Veure Galeria"],
+      "keywords"     : ["Josep Freixedes, artwork, art gallery, art studio, paintings, drawings, photographs, painter, artist","Josep Freixedes, obra, galería de arte, estudio de arte, pinturas, dibujos, fotografía, pintor, artista","Josep Freixedes, obra, galeria d'art, estudi d'art, pintures, dibuixos, fotografia, pintor, artista"]
     },
     "blog": 
     {
