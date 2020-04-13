@@ -1,7 +1,7 @@
 import React from 'react';
 import { withLocalize, Translate } from "react-localize-redux";
 import MainHeader from '../components/MainHeader';
-import Facebook from '../components/Facebook';
+import SocialMedia from '../components/SocialMedia';
 import PageHelmet from '../components/PageHelmet';
 import { renderToStaticMarkup } from "react-dom/server";
 import globalTranslations from "../data/gallery-translations.json";
@@ -135,7 +135,7 @@ class ContactPage extends React.Component {
                 <Translate>{    
                     ({ translate }) => {
                         return <PageHelmet pageTitle={translate("pages.home.mainTitle")} 
-                        pageDescription={translate("pages.home.subTitle")}
+                        pageDescription={translate("pages.home.subTitle")+ '. ' + translate("pages.home.body")}
                         pageKeywords={translate("pages.home.keywords")}  
                         pageImage={window.location.origin + "/josep-freixedes.jpg"} />
                     }
@@ -188,7 +188,7 @@ class ContactPage extends React.Component {
                                 </li>
                               </ul>
                             </form>
-                            <Facebook />
+                            <SocialMedia />
                         </div>
                   </section>
               </>)

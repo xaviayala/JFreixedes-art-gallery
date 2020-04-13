@@ -43,7 +43,7 @@ class GalleryPage extends React.Component {
                 <Translate>{    
                     ({ translate }) => {
                         return <PageHelmet pageTitle={translate("pages.home.mainTitle")} 
-                        pageDescription={translate("pages.home.subTitle")}
+                        pageDescription={translate("pages.home.subTitle")+ '. ' + translate("pages.home.body")}
                         pageKeywords={translate("pages.home.keywords")}  
                         pageImage={window.location.origin + "/logo512.png"} />
                     }
