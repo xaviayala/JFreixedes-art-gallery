@@ -15,8 +15,8 @@ class AboutPage extends React.Component {
         this.props.initialize({
             languages: [
                 { name: "English", code: "en" },
-                { name: "Spanish", code: "es" },
-                { name: "Catalan", code: "ca" }
+                { name: "Español", code: "es" },
+                { name: "Català", code: "ca" }
             ],
             translation: globalTranslations,
             options: { 

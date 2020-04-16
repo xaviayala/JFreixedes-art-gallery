@@ -4,7 +4,9 @@ import LanguageToggle from '../components/LanguageToggle';
 const MainHeader = () => (
     <>
     <header id="header">
-        <LanguageToggle />
+        <div className="languageToolbar">
+            <LanguageToggle />
+        </div>
     </header>
     </>
 );
