@@ -16,7 +16,7 @@ const NavBar = () => (
                 <li>
                     <div className="tooltip">
                         <NavLink activeClassName={"active"} to="/gallery">
-                            <span className="far fa-images" />
+                            <span className="fas fa-images" />
                             <span className="tooltiptext">Gallery</span>
                         </NavLink>
                     </div>
@@ -32,7 +32,7 @@ const NavBar = () => (
                 <li>
                     <div className="tooltip">
                         <NavLink activeClassName={"active"} to="/about">
-                            <span className="far fa-address-card" />
+                            <span className="fas fa-address-card" />
                             <span className="tooltiptext">About</span>
                         </NavLink>
                     </div>
@@ -40,7 +40,7 @@ const NavBar = () => (
                 <li>
                     <div className="tooltip">
                         <NavLink activeClassName={"active"} to="/contact">
-                            <span className="far fa-paper-plane" />
+                            <span className="fas fa-paper-plane" />
                             <span className="tooltiptext">Contact</span>
                         </NavLink>
                     </div>

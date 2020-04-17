@@ -1991,13 +1991,13 @@ img.logo {width:100%; height:auto;}
   .tooltip {
 	position: relative;
 	display: inline-block;
-	border-bottom: 1px dotted black;
+	border-bottom: 1px dotted #0d1217;
   }
   
   .tooltip .tooltiptext {
 	visibility: hidden;
 	width: 120px;
-	background-color: black;
+	background-color: #0d1217;
 	color: #fff;
 	text-align: center;
 	border-radius: 6px;
