@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
+import { useState, useEffect } from 'preact/hooks';
 import butter from './butter-client';
 import PostSummary from './PostSummary';
 

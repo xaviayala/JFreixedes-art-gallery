@@ -53,7 +53,7 @@ class HomePage extends React.Component {
                     return <PageHelmet pageTitle={translate("pages.home.mainTitle")} 
                                        pageDescription={translate("pages.home.subTitle")+ '. ' + translate("pages.home.body")}
                                        pageKeywords={translate("pages.home.keywords")} 
-                                       pageImage={window.location.origin + "/logo512.png"} />
+                                       pageImage={window.location.origin + "/logo512.jpg"} />
                 }
                 }</Translate>
     
