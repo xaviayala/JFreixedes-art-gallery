@@ -51,8 +51,10 @@ const init = (options = {}) => {
     const isGAEnabled = process.env.NODE_ENV === 'production';
 
     if (isGAEnabled) {
-        ReactGA.initialize("UA-161906091-1", {
-            cookieFlags: 'max-age=7200;secure;samesite=none'});
+        ReactGA.initialize("UA-161906091-1", 
+        {
+            gaOptions: { cookieFlags: 'max-age=7200;secure;samesite=none' },
+        });
     }
 
     return isGAEnabled;
