@@ -1,5 +1,4 @@
 import React from 'react';
-import Banner from '../components/Banner';
 import ButtonGallery from '../components/ButtonGallery';
 import PageHelmet from '../components/PageHelmet';
 import MainHeader from '../components/MainHeader';
@@ -59,7 +58,16 @@ class HomePage extends React.Component {
     
                 <MainHeader title={galleryTitle} />
                 <section id="banner">
-                        <Banner />
+                    <div className="inner">
+                        <h1><Translate id="pages.home.mainTitle" /></h1>
+                        <h2><Translate id="pages.home.subTitle" /></h2>
+                        <span><Translate id="pages.home.body" /></span>
+                        <ul className="actions">
+                            <li>
+                                <a href="#galleries" className="button alt scrolly fit"><Translate id="pages.home.mainButton" /></a>
+                            </li>
+                        </ul>
+                    </div>
                 </section>
                 <section id="galleries">
                     <div className="gallery">
