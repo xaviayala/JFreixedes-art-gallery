@@ -51,6 +51,14 @@ const init = (options = {}) => {
     const isGAEnabled = process.env.NODE_ENV === 'production';
 
     if (isGAEnabled) {
+        /*  UA-161906091-1 is the tracking ID is. It must be included within the tracking code 
+        to tell Analytics which account and property to send data to
+    
+        Since April 5th, 2020 Google Chrome and other Chromium based browsers throw a warning stating that 
+        a cookie associated with a cross-site resource at https://google.com/ was set without the `SameSite` attribute. 
+        A future release of Chrome will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`.
+        Passing these cookie flags as part of the GA settings (gaOptions).
+         */
         ReactGA.initialize("UA-161906091-1", 
         {
             gaOptions: { cookieFlags: 'max-age=7200;secure;samesite=none' },
