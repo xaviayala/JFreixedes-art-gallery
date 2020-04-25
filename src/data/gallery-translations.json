@@ -1,8 +1,9 @@
 {
   "common":
   {
-    "copyright": ["Artwork: © 2020 Josep Freixedes. All rights reserved. Powered by UP958975 for the University of Portsmouth. Cookie policy available ","Arte: © 2020 Josep Freixedes. Todos los derechos reservados. Desarrollado por UP958975 para University of Portsmouth. Política de cookies disponible ","Art: © 2020 Tots els drets reservats. Desenvolupat per UP958975 per a University of Portsmouth. Política de cookies disponible "],
-    "cookiePolicyLink": ["here","aqui","aquí"] 
+    "copyright": ["Artwork: © 2020 Josep Freixedes. All rights reserved. Powered by UP958975 for the University of Portsmouth.","Arte: © 2020 Josep Freixedes. Todos los derechos reservados. Desarrollado por UP958975 para University of Portsmouth.","Art: © 2020 Tots els drets reservats. Desenvolupat per UP958975 per a University of Portsmouth."],
+    "cookiePolicyLink": ["Cookie Policy","Política de Cookies","Política de Cookies"],
+    "siteMapLink": ["Site Map","Mapa del Sitio","Mapa del lloc"] 
   },
   "pages": 
   {
