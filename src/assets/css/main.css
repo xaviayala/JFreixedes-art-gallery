@@ -1591,6 +1591,14 @@
 
 		}
 
+
+		@media only screen and (max-width: 736px) {
+	
+			.homeMainText {
+			  display: none;
+			}
+		}
+
 /* Main */
 
 	#main {
@@ -1982,7 +1990,7 @@ img.logo {width:100%; height:auto;}
 	display: none;
   }
 
-  @media only screen and (min-width: 480px) {
+  @media only screen and (min-width: 736px) {
 	
   .tooltiptext {
 	display: inline;
@@ -2002,12 +2010,11 @@ img.logo {width:100%; height:auto;}
 	text-align: center;
 	border-radius: 6px;
 	padding: 5px 0;
-  
 	/* Position the tooltip */
 	position: absolute;
 	z-index: 1;
   }
-  
+
   .tooltip:hover .tooltiptext {
 	visibility: visible;
   }

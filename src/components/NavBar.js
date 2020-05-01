@@ -8,7 +8,7 @@ const NavBar = () => (
                 <li>
                     <div className="tooltip">
                         <NavLink activeClassName={"active"} to="/" exact={true}>
-                            <span className="fas fa-power-off" />
+                            <span className="fas fa-home" />
                             <span className="tooltiptext">Home</span>
                         </NavLink>
                     </div>
