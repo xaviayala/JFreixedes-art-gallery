@@ -1430,7 +1430,7 @@
 
 	#nav {
 		background: #0d1217;
-		z-index: 10002;
+		z-index: 1000;
 		position: relative;
 		width: 4em;
 	}
