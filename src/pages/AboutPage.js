@@ -44,24 +44,14 @@ class AboutPage extends React.Component {
                     <div className="inner">
                         <header className="align-center">
                             <h1><Translate id="pages.about.pageTitle" /></h1>
-                            <h3><Translate id="pages.about.warning" /></h3>
                         </header>
                         <div className="flex flex-2">
                             <div className="col col2">
                                 <p>
-                                ligula id risus posuere, vel eleifend ex egestas. Sed in turpis leo. 
-                                Aliquam malesuada in massa tincidunt egestas. Nam consectetur varius turpis, 
-                                non porta arcu porttitor non. In tincidunt vulputate nulla quis egestas. Ut 
-                                eleifend ut ipsum non fringilla. Praesent imperdiet nulla nec est luctus, at 
-                                sodales purus euismod.
+                                    <Translate id="pages.about.intro" />
                                 </p>
                                 <p>
-                                Donec vel mauris lectus. Etiam nec lectus urna. Sed sodales ultrices dapibus. 
-                                Nam blandit tristique risus, eget accumsan nisl interdum eu. Aenean ac accumsan 
-                                nisi. Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus 
-                                sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor 
-                                interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
-                                consequat quam. Vivamus accumsan dui in facilisis aliquet.
+                                    <Translate id="pages.about.body" />
                                 </p>
                             </div>
                             <div className="col col1 first">
@@ -69,20 +59,10 @@ class AboutPage extends React.Component {
                                     <img src={require(`../assets/images/josep-freixedes.jpg`)} alt="Josep Freixedes" />
                                 </div>
                             </div>
+                            <p>
+                            <Translate id="pages.about.ending" />
+                            </p>
                         </div>
-                        <p>
-                            Etiam nec lectus urna. Sed sodales ultrices dapibus. 
-                            Nam blandit tristique risus, eget accumsan nisl interdum eu. Aenean ac accumsan 
-                            nisi. Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus 
-                            sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor 
-                            interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
-                            consequat quam. Vivamus accumsan dui in facilisis aliquet.
-                        </p>
-                        <p> 
-                            Nunc interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
-                            consequat quam. Vivamus accumsan dui in facilisis aliquet. nibh elit congue tellus, 
-                            ac vulputate urna lorem nec nisi. Morbi id consequat quam. Vivamus accumsan tellus quita.
-                        </p>
                         <SocialMedia />
                     </div>
                 </section>    

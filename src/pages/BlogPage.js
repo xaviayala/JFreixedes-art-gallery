@@ -36,7 +36,7 @@ class BlogPage extends React.Component {
                         <Blog />
                         <ul className="actions">
                             <li>
-                                <a href="https://buttercms.com/blog_home/" className="button" target="_blank" rel="noopener noreferrer">
+                                <a href="https://buttercms.com/post/" className="button" target="_blank" rel="noopener noreferrer">
                                         <Translate id="pages.blog.postButton" />
                                 </a>
                             </li>
