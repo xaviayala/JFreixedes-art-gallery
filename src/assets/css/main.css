@@ -1033,7 +1033,8 @@
 			padding-left: 0.5em;
 		}
 
-		/* Hack to center viewer control icons */
+		/* Fix to center the viewer control 
+		icons in the react_viewer component */
 		.react-viewer ul li {
 			padding-left: 0;
 		}
