@@ -58,11 +58,11 @@ class AboutPage extends React.Component {
                                 <div className="image round fit">
                                     <img src={require(`../assets/images/josep-freixedes.jpg`)} alt="Josep Freixedes" />
                                 </div>
-                            </div>
-                            <p>
-                            <Translate id="pages.about.ending" />
-                            </p>
+                            </div>                            
                         </div>
+                        <p>
+                            <Translate id="pages.about.ending" />
+                        </p>
                         <SocialMedia />
                     </div>
                 </section>    
