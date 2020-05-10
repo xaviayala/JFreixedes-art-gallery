@@ -22,7 +22,7 @@ const PictureItem = ({ token, filename, name, onPictureClick }) => {
           <meta itemProp="thumbnailUrl" content={require(`../assets/images/thumbs/${filename}`)} />
           <meta itemProp="artist" content="Josep Freixedes" />
           <meta itemProp="artform" content="Painting" />
-          <meta itemProp="abstract" content={(`pictures.${token}.title`)} />
+          <meta itemProp="abstract" content={name} />
     </div>
   </>);
 }
